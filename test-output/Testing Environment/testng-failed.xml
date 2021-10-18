@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Environment]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BaseTests(failed)">
+    <classes>
+      <class name="list_am.CheckLoginPassWithExcel">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="loginTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- list_am.CheckLoginPassWithExcel -->
+    </classes>
+  </test> <!-- BaseTests(failed) -->
+</suite> <!-- Failed suite [Testing Environment] -->
